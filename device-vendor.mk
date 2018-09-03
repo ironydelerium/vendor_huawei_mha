@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH=device/huawei/mha/proprietary
+LOCAL_PATH := vendor/huawei/mha/proprietary
 
 $(call inherit-product-if-exists, $(LOCAL_PATH)/firmware/device-partial.mk)
 $(call inherit-product-if-exists, $(LOCAL_PATH)/mali/device-partial.mk)

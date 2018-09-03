@@ -31,10 +31,10 @@ if [ $? -eq 0 ]; then
 # limitations under the License.
 
 # These blobs are sourced from the HiKey960 development board.
-PRODUCT_COPY_FILES := \
+PRODUCT_COPY_FILES := \\
     vendor/huawei/mha/proprietary/mali/lib64/libGLES_mali.so:system/lib64/egl/libGLES_mali.so:linaro \\
     vendor/huawei/mha/proprietary/mali/lib/libGLES_mali.so:system/lib/egl/libGLES_mali.so:linaro \\
-    vendor/huwaei/mha/proprietary/mali/lib64/libGLES_mali.so:system/vendor/lib64/hw/vulkan.hikey960.so:linaro \\
+    vendor/huawei/mha/proprietary/mali/lib64/libGLES_mali.so:system/vendor/lib64/hw/vulkan.hikey960.so:linaro \\
     vendor/huawei/mha/proprietary/mali/lib/libGLES_mali.so:system/vendor/lib/hw/vulkan.hikey960.so:linaro
 __EOF__
 
