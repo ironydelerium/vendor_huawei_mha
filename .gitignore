@@ -1,0 +1,8 @@
+proprietary/mali/device-partial.mk
+proprietary/mali/lib/
+proprietary/mali/lib64/
+proprietary/mali/_tmp/
+proprietary/encoders/device-partial.mk
+proprietary/encoders/lib/
+proprietary/encoders/lib64/
+proprietary/encoders/_tmp/

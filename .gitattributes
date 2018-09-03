@@ -1,0 +1,4 @@
+proprietary/firmware/blobs/*			-text
+proprietary/firmware/blobs/ts/*			-text
+proprietary/firmware/blobs/ts/st/*		-text
+
